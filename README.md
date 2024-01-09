@@ -53,7 +53,7 @@ NB 1/133 - Fach 125
 ## Resources and Facilities
 
 - Equipment: Computer Cluster, GPU Cluster, Labs
-- Software: Linus/Windows/Mac, Julia/Python, Copilot/LLM
+- Software: Linux/Windows/Mac, Julia/Python, Copilot/LLM
 
 ## Equal Opportunity
 
