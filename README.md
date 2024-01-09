@@ -2,12 +2,22 @@
 
 ![](logo/ep1mikhasenko_logo_small.svg)
 
-The Research Group lead by Mikhail Mikhasenko at Ruhr-University Bochum specializes in hadron spectroscopy, delving into the fascinating world of strong interaction at the regime of confined quarks and gluons. Focused on exotic multiquark configurations, such as pentaquarks and tetraquarks, their work bridges nuclear and particle physics. As part of the LHCb collaboration, and the COMPASS collaboration at CERN, they are instrumental in detector operation, data analysis, and particle phenomenology. The group excels in integrating theoretical models with experimental data, fostering strong national and international collaborations. Their work enhances our understanding of both heavy and light flavor physics, advancing the field of particle physics.
+The Research Group led by Mikhail Mikhasenko at Ruhr-University Bochum specializes in hadron spectroscopy, delving into the fascinating world of strong interaction at the regime of confined quarks and gluons. Focused on exotic multiquark configurations, such as pentaquarks and tetraquarks, their work bridges nuclear and particle physics. As part of the LHCb collaboration, and the COMPASS collaboration at CERN, they are instrumental in detector operation, data analysis, and particle phenomenology. The group excels in integrating theoretical models with experimental data, fostering strong national and international collaborations. Their work enhances our understanding of both heavy and light flavor physics, advancing the field of particle physics.
+
+## Get in touch
+
+For master / bachelor project, please get in touch via email, <mikhail.mikhasenko@rub.de>.
 
 ## Location
 
-- [Bochum City](https://maps.app.goo.gl/jhP9Tc6zo5K9ewBu8)
-- [Campus](https://maps.app.goo.gl/uyEPZsB8Ep3vmPsG9)
+The University [Campus](https://maps.app.goo.gl/uyEPZsB8Ep3vmPsG9) is located at a short U35 ride from the [Bochum city](https://maps.app.goo.gl/jhP9Tc6zo5K9ewBu8). The group offices are located in the NB building on the first floor near the library.
+
+```
+Ruhr University Bochum
+Universitätsstraße 150
+NB 1/133 - Fach 125
+44780 Bochum
+```
 
 ## Research Focus
 
@@ -53,9 +63,12 @@ Female students and students with non-traditional physics backgrounds are especi
 - [Diversity at RUB](https://uni.ruhr-uni-bochum.de/en/diversity)
 - [JPAC Code of Conduct](https://www.jpac-physics.org/material/code-of-conduct)
 
-## Other
+## Related resources
 
-- **Logo**: One finds the logo in `.png`, `.pdf`, and `.svg` formats in the [`logo/`](logo/) folder
 - **Faculty page**: [link](https://www.physik.ruhr-uni-bochum.de/en/Professuren/prof-dr-mikhail-mikhasenko/)
 - **EP1 page**: [link](https://www.ep1.ruhr-uni-bochum.de/en/research/research-group-mikhasenko/)
 - **GitHub page**: [repository](https://github.com/mmikhasenko/agmikhasenko), [page](https://mmikhasenko.github.io/agmikhasenko)
+
+## Group material
+
+- **Logo**: One finds the logo in `.png`, `.pdf`, and `.svg` formats in the [`logo/`](logo/) folder
