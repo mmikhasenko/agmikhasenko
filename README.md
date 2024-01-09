@@ -1,8 +1,6 @@
 # Research Group of Mikhail Mikhasenko
 
-<div style="text-align: center;">
-    <img src="logo/ep1mikhasenko_logo.svg" alt="Group Logo" width="20%"/>
-</div>
+![](logo/ep1mikhasenko_logo_small.svg)
 
 The Research Group Mikhasenko at Ruhr-Universität Bochum specializes in hadron spectroscopy, delving into the fascinating world of particles like quarks and gluons. Focused on exotic multiquark configurations, such as pentaquarks and tetraquarks, their work bridges nuclear and particle physics. As part of the LHCb collaboration, and the COMPASS collaboration at CERN, they are instrumental in detector operation, data analysis, and particle phenomenology. The group excels in integrating theoretical models with experimental data, fostering strong national and international collaborations. Their work enhances our understanding of both heavy and light flavor physics, contributing significantly to the field of particle physics.
 
