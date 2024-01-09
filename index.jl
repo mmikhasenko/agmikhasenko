@@ -13,7 +13,7 @@ end;
 hook_link(p) = replace(p, ".jl" => ".html");
 
 # ╔═╡ 97d6750e-c4d8-4b4a-9057-3e22236636e3
-readme = read(joinpath(@__DIR__, "../README.md"), String) |> Markdown.parse;
+readme = read(joinpath(@__DIR__, "README.md"), String) |> Markdown.parse;
 
 # ╔═╡ bfc40cc7-e0b6-4fc8-8574-e337c17d3e47
 hook_name(file) = "@" * replace(basename(file), ".jl" => "");
@@ -21,10 +21,10 @@ hook_name(file) = "@" * replace(basename(file), ".jl" => "");
 # ╔═╡ 8305ac60-b88e-46f4-bdd6-cff4749bfc40
 sources = let
     files = map(
-        f -> " - [`$(hook_name(f))`](../src/$(hook_link(f)))",
+        f -> " - [`$(hook_name(f))`](src/$(hook_link(f)))",
         filter(
             path -> basename(path) != "PlutoLinks.jl" && endswith(path, ".jl"),
-            readdir("../src")
+            readdir("src")
         )
     ) |> s -> join(s, "\n") |> Markdown.parse
 
