@@ -1,16 +1,10 @@
 # Research Group of Mikhail Mikhasenko
 
-<div style="display: flex;">
-    <div style="flex: 20%;">
-        <div style="text-align: center;">
-            <img src="logo/ep1mikhasenko_logo.svg" alt="Group Logo" width="80%"/>
-        </div>
-    </div>
-    <div style="flex: 80%;">
-        The Research Group Mikhasenko at Ruhr-Universität Bochum specializes in hadron spectroscopy, delving into the fascinating world of particles like quarks and gluons.
-        Focused on exotic multiquark configurations, such as pentaquarks and tetraquarks, their work bridges nuclear and particle physics. As part of the LHCb collaboration, and the COMPASS collaboration  at CERN, they are instrumental in detector operation, data analysis, and particle phenomenology. The group excels in integrating theoretical models with experimental data, fostering strong national and international collaborations. Their work enhances our understanding of both heavy and light flavor physics, contributing significantly to the field of particle physics.
-    </div>
+<div style="text-align: center;">
+    <img src="logo/ep1mikhasenko_logo.svg" alt="Group Logo" width="20%"/>
 </div>
+
+The Research Group Mikhasenko at Ruhr-Universität Bochum specializes in hadron spectroscopy, delving into the fascinating world of particles like quarks and gluons. Focused on exotic multiquark configurations, such as pentaquarks and tetraquarks, their work bridges nuclear and particle physics. As part of the LHCb collaboration, and the COMPASS collaboration at CERN, they are instrumental in detector operation, data analysis, and particle phenomenology. The group excels in integrating theoretical models with experimental data, fostering strong national and international collaborations. Their work enhances our understanding of both heavy and light flavor physics, contributing significantly to the field of particle physics.
 
 ## Location
 
@@ -61,6 +55,9 @@ Female students and students with non-traditional physics backgrounds are especi
 - [Diversity at RUB](https://uni.ruhr-uni-bochum.de/en/diversity)
 - [JPAC Code of Conduct](https://www.jpac-physics.org/material/code-of-conduct)
 
-## 1. Group logo
+## Other
 
-One finds the logo in `.png`, `.pdf`, and `.svg` formats in the `logo/` folder
+- **Logo**: One finds the logo in `.png`, `.pdf`, and `.svg` formats in the [`logo/`](logo/) folder
+- **Faculty page**: [link](https://www.physik.ruhr-uni-bochum.de/en/Professuren/prof-dr-mikhail-mikhasenko/)
+- **EP1 page**: [link](https://www.ep1.ruhr-uni-bochum.de/en/research/research-group-mikhasenko/)
+- **GitHub page**: [repository](https://github.com/mmikhasenko/agmikhasenko), [page](mmikhasenko.github.io/agmikhasenko)
