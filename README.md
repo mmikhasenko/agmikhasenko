@@ -60,4 +60,4 @@ Female students and students with non-traditional physics backgrounds are especi
 - **Logo**: One finds the logo in `.png`, `.pdf`, and `.svg` formats in the [`logo/`](logo/) folder
 - **Faculty page**: [link](https://www.physik.ruhr-uni-bochum.de/en/Professuren/prof-dr-mikhail-mikhasenko/)
 - **EP1 page**: [link](https://www.ep1.ruhr-uni-bochum.de/en/research/research-group-mikhasenko/)
-- **GitHub page**: [repository](https://github.com/mmikhasenko/agmikhasenko), [page](mmikhasenko.github.io/agmikhasenko)
+- **GitHub page**: [repository](https://github.com/mmikhasenko/agmikhasenko), [page](https://mmikhasenko.github.io/agmikhasenko)
