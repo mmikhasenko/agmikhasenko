@@ -1,4 +1,7 @@
 ---
+import '@fontsource-variable/inter';
+import '@fontsource-variable/inter-tight';
+import '@fontsource-variable/jetbrains-mono';
 import '../styles/global.css';
 import { people, leader } from '../data/members';
 import { publications } from '../data/publications';
@@ -22,7 +25,7 @@ const title = 'Mikhasenko Group · Hadron Physics at RUB';
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
-    <header>
+    <header class="site-header">
       <div class="institution"><div class="wrap institution-inner"><span>RUHR UNIVERSITY BOCHUM</span><span>Experimental Physics I</span></div></div>
       <div class="wrap nav-row">
         <a class="brand" href="#" aria-label="Mikhasenko Group home"><img src={`${base}/images/group-logo.png`} width="48" height="48" alt="" /><span>MIKHASENKO<span class="brand-sub">RESEARCH GROUP</span></span></a>
@@ -43,7 +46,7 @@ const title = 'Mikhasenko Group · Hadron Physics at RUB';
           <figcaption><span>Υ(3S) · Meson density</span><a href="https://mmikhasenko.github.io/GIModel.jl/dev/">Computed with GIModel.jl ↗</a></figcaption>
         </figure>
       </section>
-      <div class="collaboration-band"><div class="wrap collaboration-inner"><span class="eyebrow">CONNECTED THROUGH SCIENCE</span><a href="https://lhcb-outreach.web.cern.ch/">LHCb <span>↗</span></a><a href="https://wwwcompass.cern.ch/">COMPASS <span>↗</span></a><a href="https://www.jpac-physics.org/">JPAC <span>↗</span></a><a href="https://pdg.lbl.gov/">Particle Data Group <span>↗</span></a><a href="https://democratizing-models.github.io/consortium/index.html">DEMOS <span>↗</span></a><a href="https://www.cost.eu/actions/CA24159/">SHARP <small>COST Action CA24159</small><span>↗</span></a><span class="network-name">HADRON2030</span></div></div>
+      <div class="collaboration-band"><div class="wrap collaboration-inner"><span class="eyebrow">CONNECTED THROUGH SCIENCE</span><a href="https://lhcb-outreach.web.cern.ch/">LHCb <span>↗</span></a><a href="https://wwwcompass.cern.ch/">COMPASS <span>↗</span></a><a href="https://www.jpac-physics.org/">JPAC <span>↗</span></a><a href="https://pdg.lbl.gov/">Particle Data Group <span>↗</span></a><a href="https://democratizing-models.github.io/consortium/index.html">DEMOS <span>↗</span></a><a href="https://www.cost.eu/actions/CA24159/">SHARP <span>↗</span><small>COST Action CA24159</small></a><span class="network-name">HADRON2030</span></div></div>
       <section id="research" class="section wrap">
         <div class="section-heading"><div><p class="eyebrow">01 / RESEARCH</p><h2>Understanding matter.<br />Connecting the pieces.</h2></div><p>We bring experiment, theory and computation together to study the rich spectrum of hadrons.</p></div>
         <div class="research-grid">{projects.map(project => <article class="research-card"><div class="card-top"><span>{project.number}</span><span aria-hidden="true">↗</span></div><p class="eyebrow">{project.tag}</p><h3>{project.title}</h3><p>{project.text}</p><div class="card-detail">{project.detail}</div></article>)}</div>
