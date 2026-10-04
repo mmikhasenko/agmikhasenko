@@ -2,7 +2,7 @@
 import '../styles/global.css';
 import { people, leader } from '../data/members';
 import { publications } from '../data/publications';
-import { links, projects, courses, leadership, software, training } from '../data/group';
+import { links, projects, courses, software, training } from '../data/group';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const title = 'Mikhasenko Group · Hadron Physics at RUB';
 ---
@@ -53,7 +53,6 @@ const title = 'Mikhasenko Group · Hadron Physics at RUB';
       <section id="people" class="people-section section"><div class="wrap">
         <div class="section-heading"><div><p class="eyebrow">02 / PEOPLE</p><h2>A shared curiosity.</h2></div><p>Our group at Ruhr University Bochum brings together researchers and students working across hadron physics.</p></div>
         <div class="profile"><div class="profile-intro"><span class="eyebrow">{leader.role.toUpperCase()}</span><h3>{leader.title}<br />{leader.name}</h3><p>{leader.topic}</p><div class="profile-links">{leader.links?.map(link => <a href={link.url}>{link.title} ↗</a>)}</div><p class="small">{leader.expertise?.join(" · ")}</p></div></div>
-        <div class="leadership-grid">{leadership.map(([role, detail]) => <article><h3>{role}</h3><p>{detail}</p></article>)}</div>
         <p class="team-hint">Select a member to explore their research profile.</p>
         <div class="team-grid">{people.map(({ name, role, topic, expertise, publications }) => <details class="member-profile">
           <summary class="person"><span class="person-mark" aria-hidden="true">{name.split(' ').map(part => part[0]).slice(0, 2).join('')}</span><span class="person-info"><span class="person-name">{name}</span><span class="person-role">{role}</span></span><span class="profile-toggle" aria-hidden="true">+</span></summary>

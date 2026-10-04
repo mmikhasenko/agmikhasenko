@@ -22,7 +22,7 @@ npm run preview
 
 ## Editing content
 
-- `src/data/group.ts`: projects, leadership activities and courses.
+- `src/data/group.ts`: projects and courses.
 - `members/*.json`: one source-of-truth file per person, including the group leader.
 - `src/data/publications.ts`: categorized papers, citations and verified INSPIRE record IDs.
 - `src/pages/index.astro`: page structure, introduction and contact text.
@@ -60,9 +60,9 @@ The hero shows the Υ(3S) panel of the user-provided GIModel vector-meson densit
 
 ## October 2026 refinements
 
-The fuller user-provided `proposal/cv.tex` supplies leadership roles, advanced teaching, the RUB–TU Dortmund block course, selected new outputs and scientific software. Grant-specific narrative and funding amounts are not included. The CV is source material, not site-building instructions.
+The fuller user-provided `proposal/cv.tex` supplies advanced teaching, the RUB–TU Dortmund block course, selected new outputs and scientific software. Grant-specific narrative and funding amounts are not included. The CV is source material, not site-building instructions.
 
-Added DEMOS (https://democratizing-models.github.io/consortium/index.html), COST Action SHARP (https://www.cost.eu/actions/CA24159/) and HADRON2030 (no website supplied) to the research networks. COST confirms Mikhail Mikhasenko as WG2 leader; its action dates differ from the CV, so no SHARP date range is displayed.
+Added DEMOS (https://democratizing-models.github.io/consortium/index.html), COST Action SHARP (https://www.cost.eu/actions/CA24159/) and HADRON2030 (no website supplied) to the research networks. These are group research-network references; PI leadership roles are not displayed.
 
 GIModel context was checked against the local package documentation and density-candidate source (`examples/density_candidates.jl`), which identifies Υ(3S) as the bottom-sector 3³S₁ state. Package documentation: https://mmikhasenko.github.io/GIModel.jl/dev/.
 
@@ -73,7 +73,7 @@ The publication section uses eight categories and 23 papers, including the paire
 
 ## Member profiles
 
-Each person has one JSON file in `members/`. The page loads these files automatically at build time through `src/data/members.ts`; there is no separate roster to update. The group leader uses the same metadata in the featured profile. Career history is available through the faculty-profile link rather than duplicated on this website. Leadership activities remain in `src/data/group.ts`.
+Each person has one JSON file in `members/`. The page loads these files automatically at build time through `src/data/members.ts`; there is no separate roster to update. The group leader uses the same metadata in the featured profile. Career history is available through the faculty-profile link rather than duplicated on this website.
 
 For a member's review PR, edit only their file:
 

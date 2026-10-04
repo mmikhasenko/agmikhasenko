@@ -59,12 +59,6 @@ export const courses: Course[] = [
   { term: 'Summer 2025', name: 'Hadrons at Large Hadron Collider', detail: 'Seminar · 160432' },
   { term: 'Winter 2024/25', name: 'Data Analysis in High Energy Physics', detail: '160430 / 160431' },
 ];
-export const leadership = [
-  ['DEMOS · Speaker & PI', 'Democratizing Models (2025–2028): a cross-disciplinary consortium developing reusable scientific models.'],
-  ['SHARP · Hadron spectroscopy', 'Leader of Working Group 2 in COST Action CA24159, connecting the hadron structure and spectroscopy communities.'],
-  ['LHCb · Physics coordination', 'Beauty and Quarkonia convenor, October 2026–October 2028; Charm-Hadron Decays and Properties coordinator, 2022–2024.'],
-  ['COMPASS & PDG', 'COMPASS spectroscopy coordinator, 2022–2026; member of the Particle Data Group meson team since 2019.'],
-];
 export const software = [
   ['GIModel.jl', 'Meson masses, wavefunctions and decays from the Godfrey–Isgur quark model.', 'https://github.com/mmikhasenko/GIModel.jl'],
   ['ThreeBodyDecays.jl', 'Three-body decay kinematics and amplitude models.', 'https://github.com/mmikhasenko/ThreeBodyDecays.jl'],
