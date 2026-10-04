@@ -25,7 +25,12 @@ export const people: GroupMember[] = [
   { name: 'Lennart C. F. Ahrens', role: 'Doctoral researcher' },
   { name: 'Dhruvanshu Parmar', role: 'Doctoral researcher' },
   { name: 'Ilya Segal', role: 'Doctoral researcher' },
-  { name: 'Hendric Jonas', role: 'Group member' },
+  {
+    name: 'Hendric Jonas',
+    role: 'Group member',
+    topic: 'Hadronic Decay Modes: laying the foundation for a common communication format between partial-wave-analysis (PWA) frameworks.',
+    expertise: ['Hadronic decay models', 'Interoperability between PWA frameworks'],
+  },
   { name: 'Alahi Jeeganahalli Inayathbasha', role: 'Master’s student' },
   { name: 'Rasti Salam', role: 'Master’s student' },
   { name: 'Sharaf Mirza', role: 'Bachelor’s student' },
