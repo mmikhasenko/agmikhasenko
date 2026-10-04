@@ -72,10 +72,13 @@ export const leadership = [
   ['COMPASS & PDG', 'COMPASS spectroscopy coordinator, 2022–2026; member of the Particle Data Group meson team since 2019.'],
 ];
 export const software = [
-  ['GIModel.jl', 'Meson masses, wavefunctions and decays from the Godfrey–Isgur quark model.', 'https://mmikhasenko.github.io/GIModel.jl/dev/'],
-  ['ThreeBodyDecays.jl', 'Multibody kinematics and amplitudes.', null],
-  ['HadronicLineshapes.jl', 'Reusable resonance models.', null],
-  ['Differentiable computation', 'NumericalDistributions.jl and LorentzVectorBase.jl support statistical computation and relativistic kinematics.', null],
+  ['GIModel.jl', 'Meson masses, wavefunctions and decays from the Godfrey–Isgur quark model.', 'https://github.com/mmikhasenko/GIModel.jl'],
+  ['ThreeBodyDecays.jl', 'Three-body decay kinematics and amplitude models.', 'https://github.com/mmikhasenko/ThreeBodyDecays.jl'],
+  ['HadronicLineshapes.jl', 'Reusable resonance models for hadronic amplitudes.', 'https://github.com/mmikhasenko/HadronicLineshapes.jl'],
+  ['CascadeDecays.jl', 'Decay amplitudes built from sequential decay chains in a cascade basis.', 'https://github.com/RUB-EP1/CascadeDecays.jl'],
+  ['NumericalDistributions.jl', 'Numerically defined probability distributions with automatic normalization and sampling.', 'https://github.com/mmikhasenko/NumericalDistributions.jl'],
+  ['LorentzVectorBase.jl', 'Shared interfaces for four-momenta and relativistic kinematics in high-energy physics.', 'https://github.com/JuliaHEP/LorentzVectorBase.jl'],
+  ['FourVectors.jl', 'Cartesian four-momenta, spatial rotations and Lorentz boosts.', 'https://github.com/JuliaHEP/FourVectors.jl'],
 ];
 export const training = [
   ['International K-matrix Day', 'An annual open-access programme founded in 2024, bringing together lectures, exercises, code and recordings.', 'https://rub-ep1.github.io/kmatrix-day-2025/'],
