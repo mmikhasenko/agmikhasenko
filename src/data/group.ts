@@ -10,33 +10,6 @@ export const projects = [
   {number: '02', tag: 'AMPLITUDES & COMPUTING', title: 'From collision data to particle properties.', text: 'Reaction modeling, partial-wave analysis and phenomenology connect experimental observations to the underlying physics. Machine learning helps us investigate complex data.', detail: 'Amplitude analysis · Machine learning'},
   {number: '03', tag: 'DETECTOR DEVELOPMENT', title: 'Building the next view of a collision.', text: 'Our work on the LHCb SciFi tracker connects detector operation and upgrades with photosensor readout, silicon photomultipliers and fast front-end electronics.', detail: 'SciFi tracker · Photosensor readout'},
 ];
-export type GroupMember = {
-  name: string;
-  role: string;
-  topic?: string;
-  expertise?: string[];
-  publications?: { title: string; url: string }[];
-};
-
-// Add verified profile details here; omitted fields are not shown publicly.
-export const people: GroupMember[] = [
-  { name: 'Marian Stahl', role: 'Research staff' },
-  { name: 'Christoph Tönnis', role: 'Research staff' },
-  { name: 'Lennart C. F. Ahrens', role: 'Doctoral researcher' },
-  { name: 'Dhruvanshu Parmar', role: 'Doctoral researcher' },
-  { name: 'Ilya Segal', role: 'Doctoral researcher' },
-  {
-    name: 'Hendric Jonas',
-    role: 'Group member',
-    topic: 'Hadronic Decay Modes: laying the foundation for a common communication format between partial-wave-analysis (PWA) frameworks.',
-    expertise: ['Hadronic decay models', 'Interoperability between PWA frameworks'],
-  },
-  { name: 'Alahi Jeeganahalli Inayathbasha', role: 'Master’s student' },
-  { name: 'Rasti Salam', role: 'Master’s student' },
-  { name: 'Sharaf Mirza', role: 'Bachelor’s student' },
-  { name: 'Anna Zimmer', role: 'Bachelor’s student' },
-  { name: 'Alexander Kazatsky', role: 'Student assistant' },
-];
 export const career = [
   ['Nov 2023–present', 'Professor (W2TTW3)', 'Institute of Experimental Physics I, Ruhr University Bochum'],
   ['2021–2023', 'Research Fellow', 'ORIGINS Excellence Cluster, LMU Munich'],

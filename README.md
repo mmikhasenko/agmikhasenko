@@ -22,7 +22,8 @@ npm run preview
 
 ## Editing content
 
-- `src/data/group.ts`: projects, group members, career history and courses.
+- `src/data/group.ts`: projects, career history and courses.
+- `members/*.json`: one source-of-truth file per person, including the group leader.
 - `src/data/publications.ts`: categorized papers, citations and verified INSPIRE record IDs.
 - `src/pages/index.astro`: page structure, introduction and contact text.
 - `src/styles/global.css`: responsive layout and RUB color tokens.
@@ -72,4 +73,17 @@ The publication section uses eight categories and 23 papers, including the paire
 
 ## Member profiles
 
-Each object in `people` in `src/data/group.ts` has `name` and `role`, with optional `topic`, `expertise` (array of strings), and `publications` (array of `{ title, url }`). Only supplied fields appear in the expandable profile. Empty profiles show a short coming-soon message. Native HTML details/summary supports click, touch, Enter and Space without JavaScript. Hendric Jonas was added at the user's request; his research description was supplied by the user. His specific position and publication links are not yet provided.
+Each person has one JSON file in `members/`. The page loads these files automatically at build time through `src/data/members.ts`; there is no separate roster to update. The group leader uses the same metadata in the featured profile. Career history and leadership activities remain in `src/data/group.ts`.
+
+For a member's review PR, edit only their file:
+
+- `name` and `role`: displayed name and position.
+- `order`: unique non-negative integer controlling display order; retain it when editing a profile.
+- `topic`: research description, or an empty string until reviewed.
+- `expertise`: list of expertise strings, or `[]`.
+- `publications`: list of `{ "title": "Paper title", "url": "https://inspirehep.net/literature/…" }` objects, or `[]`.
+- `title` and `links`: optional fields used by the featured group-leader profile.
+
+To add a person, copy an existing file to `members/firstname-lastname.json`, replace their details and choose an unused order. Run `npm run build` before opening the PR. The build checks required fields, duplicate names/orders, field types and publication/link URL formats; GitHub checks the PR before merging and deploys after merge.
+
+Only supplied fields appear in expandable profiles. Empty profiles display **Research profile coming soon.** Native HTML details/summary supports click, touch, Enter and Space without JavaScript. Hendric Jonas's research description was supplied by the user; his specific position and publication links are not yet provided.

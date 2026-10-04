@@ -1,0 +1,28 @@
+{
+  "order": 0,
+  "name": "Mikhail Mikhasenko",
+  "role": "Group leader",
+  "title": "Prof. Dr.",
+  "topic": "Professor at the Institute of Experimental Physics I since November 2023.",
+  "expertise": [
+    "Hadron spectroscopy",
+    "Reaction modeling and amplitude analysis",
+    "Detector development and photosensor readout",
+    "Machine learning in HEP"
+  ],
+  "publications": [],
+  "links": [
+    {
+      "title": "Faculty profile",
+      "url": "https://www.physik.ruhr-uni-bochum.de/en/Professuren/prof-dr-mikhail-mikhasenko/"
+    },
+    {
+      "title": "ORCID",
+      "url": "https://orcid.org/0000-0002-6969-2063"
+    },
+    {
+      "title": "INSPIRE",
+      "url": "https://inspirehep.net/authors/1753871"
+    }
+  ]
+}

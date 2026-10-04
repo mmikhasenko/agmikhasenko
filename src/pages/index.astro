@@ -1,7 +1,8 @@
 ---
 import '../styles/global.css';
+import { people, leader } from '../data/members';
 import { publications } from '../data/publications';
-import { links, projects, people, career, courses, leadership, software, training } from '../data/group';
+import { links, projects, career, courses, leadership, software, training } from '../data/group';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const title = 'Mikhasenko Group · Hadron Physics at RUB';
 ---
@@ -51,7 +52,7 @@ const title = 'Mikhasenko Group · Hadron Physics at RUB';
       </section>
       <section id="people" class="people-section section"><div class="wrap">
         <div class="section-heading"><div><p class="eyebrow">02 / PEOPLE</p><h2>A shared curiosity.</h2></div><p>Our group at Ruhr University Bochum brings together researchers and students working across hadron physics.</p></div>
-        <div class="profile"><div class="profile-intro"><span class="eyebrow">GROUP LEADER</span><h3>Prof. Dr.<br />Mikhail Mikhasenko</h3><p>Professor at the Institute of Experimental Physics I since November 2023.</p><div class="profile-links"><a href={links.faculty}>Faculty profile ↗</a><a href="https://orcid.org/0000-0002-6969-2063">ORCID ↗</a><a href="https://inspirehep.net/authors/1753871">INSPIRE ↗</a></div><p class="small">Hadron spectroscopy · Reaction modeling and amplitude analysis · Detector development and photosensor readout · Machine learning in HEP</p></div><div class="timeline" aria-label="Short curriculum vitae">{career.map(([date, role, place]) => <div class="career"><span>{date}</span><div><h4>{role}</h4><p>{place}</p></div></div>)}</div></div>
+        <div class="profile"><div class="profile-intro"><span class="eyebrow">{leader.role.toUpperCase()}</span><h3>{leader.title}<br />{leader.name}</h3><p>{leader.topic}</p><div class="profile-links">{leader.links?.map(link => <a href={link.url}>{link.title} ↗</a>)}</div><p class="small">{leader.expertise?.join(" · ")}</p></div><div class="timeline" aria-label="Short curriculum vitae">{career.map(([date, role, place]) => <div class="career"><span>{date}</span><div><h4>{role}</h4><p>{place}</p></div></div>)}</div></div>
         <div class="leadership-grid">{leadership.map(([role, detail]) => <article><h3>{role}</h3><p>{detail}</p></article>)}</div>
         <p class="team-hint">Select a member to explore their research profile.</p>
         <div class="team-grid">{people.map(({ name, role, topic, expertise, publications }) => <details class="member-profile">
