@@ -11,7 +11,7 @@ npm ci
 npm run dev
 ```
 
-Open http://localhost:4321/agmikhasenko/.
+Open http://localhost:4321/agmikhasenko-website/.
 
 ```sh
 npm run build
@@ -33,7 +33,7 @@ Teaching is explicitly dated, rather than presented as the current semester. Pub
 
 ## GitHub Pages
 
-The site is configured for https://mmikhasenko.github.io/agmikhasenko/.
+The site is configured for https://rub-ep1.github.io/agmikhasenko-website/.
 In repository **Settings → Pages**, select **GitHub Actions** as the build source.
 The workflow builds pull requests without publishing. Pushes to `main` and manual runs on `main` build and deploy `dist/`.
 
