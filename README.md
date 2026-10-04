@@ -22,7 +22,7 @@ npm run preview
 
 ## Editing content
 
-- `src/data/group.ts`: projects, career history and courses.
+- `src/data/group.ts`: projects, leadership activities and courses.
 - `members/*.json`: one source-of-truth file per person, including the group leader.
 - `src/data/publications.ts`: categorized papers, citations and verified INSPIRE record IDs.
 - `src/pages/index.astro`: page structure, introduction and contact text.
@@ -73,7 +73,7 @@ The publication section uses eight categories and 23 papers, including the paire
 
 ## Member profiles
 
-Each person has one JSON file in `members/`. The page loads these files automatically at build time through `src/data/members.ts`; there is no separate roster to update. The group leader uses the same metadata in the featured profile. Career history and leadership activities remain in `src/data/group.ts`.
+Each person has one JSON file in `members/`. The page loads these files automatically at build time through `src/data/members.ts`; there is no separate roster to update. The group leader uses the same metadata in the featured profile. Career history is available through the faculty-profile link rather than duplicated on this website. Leadership activities remain in `src/data/group.ts`.
 
 For a member's review PR, edit only their file:
 

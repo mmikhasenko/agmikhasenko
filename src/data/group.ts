@@ -10,12 +10,6 @@ export const projects = [
   {number: '02', tag: 'AMPLITUDES & COMPUTING', title: 'From collision data to particle properties.', text: 'Reaction modeling, partial-wave analysis and phenomenology connect experimental observations to the underlying physics. Machine learning helps us investigate complex data.', detail: 'Amplitude analysis · Machine learning'},
   {number: '03', tag: 'DETECTOR DEVELOPMENT', title: 'Building the next view of a collision.', text: 'Our work on the LHCb SciFi tracker connects detector operation and upgrades with photosensor readout, silicon photomultipliers and fast front-end electronics.', detail: 'SciFi tracker · Photosensor readout'},
 ];
-export const career = [
-  ['Nov 2023–present', 'Professor (W2TTW3)', 'Institute of Experimental Physics I, Ruhr University Bochum'],
-  ['2021–2023', 'Research Fellow', 'ORIGINS Excellence Cluster, LMU Munich'],
-  ['2019–2021', 'Senior Research Fellow', 'CERN, Switzerland'],
-  ['2014–2019', 'Ph.D. · summa cum laude', 'University of Bonn, Helmholtz Institute for Radiation and Nuclear Physics. Supervisor: Prof. Dr. Bernhard Ketzer.'],
-];
 type Course = {
   term: string;
   name: string;
