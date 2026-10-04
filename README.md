@@ -69,3 +69,7 @@ GIModel context was checked against the local package documentation and density-
 ## Selected bibliography
 
 The publication section uses eight categories and 23 papers, including the paired Tcc discovery and study. Records were matched using the user-provided `pubs.bib`, fuller CV, and the public INSPIRE API. The two double-Regge selections are the 2021 EPJC analysis (1859521) and the 2026 COMPASS/JPAC exotic-Reggeon preprint (3181789). The PDG Resonances chapter links to its 2024 parent review record (2817040) and directly to the chapter PDF. Teaching research remains linked in the teaching section.
+
+## Member profiles
+
+Each object in `people` in `src/data/group.ts` has `name` and `role`, with optional `topic`, `expertise` (array of strings), and `publications` (array of `{ title, url }`). Only supplied fields appear in the expandable profile. Empty profiles show a short coming-soon message. Native HTML details/summary supports click, touch, Enter and Space without JavaScript. Hendric Jonas was added at the user's request; his specific role and research details are awaiting confirmation.
